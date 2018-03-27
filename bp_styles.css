@@ -3,7 +3,7 @@
 /* basic menu styles */
 .block-menu {
 	display: block;
-	background: #0000ff;
+	background: darkgreen;
 }
 
 .block-menu li {
@@ -14,7 +14,7 @@
 	color: #fff;
 	display: block;
 	text-decoration: none;
-	font-family: 'Passion One', Arial, sans-serif;
+	font-family: 'Merienda';
 	font-smoothing: antialiased;
 	text-transform: uppercase;
 	overflow: visible;
@@ -69,7 +69,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: #0000ff;
+	background: darkgreen;
 	padding: 15px 10px;
 	color: white;
 	pointer-events: none;
@@ -117,12 +117,13 @@ div.w3-container img {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #0000ff;
+  background-color: #31CB00;
 }
 
 .text {
   color: white;
-  font-size: 20px;
+  font-family: 'Merienda';
+  font-size: 60px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -133,9 +134,9 @@ div.w3-container img {
 
 #logos2 {
 	display: block;
-	width: 15%;
+	width: 8%;
 	height: auto;
-	top: 700px;
+	top: 610px;
 	left: 15px;
 }
 #logos {
@@ -217,7 +218,7 @@ div.w3-container img {
   position: relative;
 }
 
-.slide1,.slide2,.slide3,.slide4,.slide5,.slide6 {
+.slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9,.slide10,.slide11,.slide12,.slide13,.slide14,.slide15 {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -259,8 +260,60 @@ div.w3-container img {
     animation:fade3 8s infinite;
 -webkit-animation:fade3 8s infinite;
 }
-
-
+.slide7 {
+  background: url(appointments.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade 8s infinite;
+-webkit-animation:fade 8s infinite;
+} 
+.slide8 {
+  background: url(appointments2.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade2 8s infinite;
+-webkit-animation:fade2 8s infinite;
+}
+.slide9 {
+  background: url(appointments3.png)no-repeat center;
+      background-size: cover;
+    animation:fade3 8s infinite;
+-webkit-animation:fade3 8s infinite;
+}
+.slide10 {
+  background: url(specials.png)no-repeat center;
+      background-size: cover;
+    animation:fade 8s infinite;
+-webkit-animation:fade 8s infinite;
+} 
+.slide11 {
+  background: url(specials2.png)no-repeat center;
+      background-size: cover;
+    animation:fade2 8s infinite;
+-webkit-animation:fade2 8s infinite;
+}
+.slide12 {
+  background: url(specials3.png)no-repeat center;
+      background-size: cover;
+    animation:fade3 8s infinite;
+-webkit-animation:fade3 8s infinite;
+}
+.slide13 {
+	background: url(links.png)no-repeat center;
+	background-size: cover;
+	animation:fade 8s infinite;
+	-webkit-animation:fade 8s infinite;
+}
+.slide14 {
+  background: url(links2.png)no-repeat center;
+      background-size: cover;
+    animation:fade2 8s infinite;
+-webkit-animation:fade2 8s infinite;
+}
+.slide15 {
+  background: url(links3.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade3 8s infinite;
+-webkit-animation:fade3 8s infinite;
+}
 @keyframes fade
 {
   0%   {opacity:1}
@@ -300,7 +353,7 @@ div.w3-container img {
 article {
 	position: absolute;
 	top: 600px;
-	right: 40px;
+	right: 0px;
 }
 
 .video {
@@ -309,7 +362,28 @@ article {
 	right: 380px;
 }
 	
-	
+/* This is for appointments page */
+
+.custInformation {
+	display: block;
+	position: absolute;
+	width: 30%;
+	left: 200px;
+	color: darkgreen;
+	font-size: 30px;
+}
+#available {
+	font-family: 'Merienda';
+	font-size: 30px;
+	text-shadow: 2px 2px green;
+	color: yellow;
+}
+
+nav {
+	display: block;
+	position: absolute;
+	left: 200px;
+}
     
  /* rotating logo footer */
  
@@ -317,7 +391,7 @@ article {
     width: 300px;
     height: 300px;
     position: fixed;
-    -webkit-animation: mymove 5s;
+    -webkit-animation: mymove 4s;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
     }
@@ -328,7 +402,29 @@ article {
    }
    
 #footer {
-	position: absolute;
+	position: fixed;
 	bottom: 0px;
+	left: 0px;
 	height: 75px;
+	padding: 0.25em;
+	width: 100%;
+	text-align: center;
+	color: white;
 }
+/*table for appointments*/
+table {
+	padding: 25px 0px;
+}
+
+#row {
+   color: rgb(186, 186, 156);
+   background-color: darkgreen;
+   font-size: 0.9em;
+   padding: 1em 0;
+   text-align: center;
+}
+//
+//  Appointment Scheduling Widget
+//
+//=========================================
+
